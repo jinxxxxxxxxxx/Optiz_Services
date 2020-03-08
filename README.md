@@ -6,7 +6,7 @@ Our future plans is to make our scripts as stable as possible to make the user e
 listening to our community is something really importent to us, we want to know your suggestion and opinions on our script
 Please join [Evolve communitiy](https://discord.gg/N5awGsk)
 
- It is recommended to run the script with [NSudo By M2Team GitHub](https://github.com/M2Team/NSudo) By  to disable more services like Task Scheduler.Go to [MajorGeeks](https://m.majorgeeks.com/files/details/nsudo.html) and download NSudo
+ It is recommended to run the script with [NSudo By M2Team](https://github.com/M2Team/NSudo) to disable more services like Task Scheduler.Go to [MajorGeeks](https://m.majorgeeks.com/files/details/nsudo.html) and download NSudo
 
 # Credits
 * [n1kobg](https://n1kobg.blogspot.com/)
