@@ -483,6 +483,7 @@ sc config lltdsvc start= disabled
 sc config TrkWks start= disabled
 sc config TokenBroker start= disabled
 sc config AppIDSvc start= disabled
+sc config camsvc start= auto
 Echo.
 Echo. [101;41mThe services has been disabled.[0m
 
