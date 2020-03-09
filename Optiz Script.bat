@@ -476,7 +476,6 @@ sc config NfsClnt start= disabled
 sc config WbioSrvc start= disabled
 sc config wisvc start= disabled
 sc config defragsvc start= disabled
-sc config camsvc start= disabled
 sc config VaultSvc start= disabled
 sc config SharedRealitySvc start= disabled
 sc config RetailDemo start= disabled
