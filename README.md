@@ -15,5 +15,10 @@ Go to [MajorGeeks](https://m.majorgeeks.com/files/details/nsudo.html) and downlo
 * [n1kobg](https://n1kobg.blogspot.com/)
 * [equk](https://github.com/equk/windows/tree/master/windows_10)
 * [Revision](https://discord.gg/962y4pU)
-* SH37!
 * [Evolve communitiy](https://discord.gg/N5awGsk)
+* SH37!
+
+# Changelog 12/03/2020
+* Replaced all sc config XXXX commands with "Reg add" commands.
+* Added a feature to disable Windows Store (thanks to SH37!)
+* Removed Disable Windows sign-in \ log-in feature
