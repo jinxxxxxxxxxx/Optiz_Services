@@ -11,6 +11,8 @@ Please join [Evolve communitiy](https://discord.gg/N5awGsk)
  It is recommended to run the script with [NSudo By M2Team](https://github.com/M2Team/NSudo) to disable more services like Task Scheduler.
 Go to [MajorGeeks](https://m.majorgeeks.com/files/details/nsudo.html) and download NSudo
 
+* Recommended: **Please make a system restore or a backup before you running the script so you can go back in anytime.** 
+
 # Credits
 * [n1kobg](https://n1kobg.blogspot.com/)
 * [equk](https://github.com/equk/windows/tree/master/windows_10)
