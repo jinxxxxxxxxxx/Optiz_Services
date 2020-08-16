@@ -1,6 +1,6 @@
 # Optiz
 **First of all, thank you for reading, please make sure you read it carefully before running this script!**
-OptiZ Script is made to disable unneeded Windows 10 services, the Script may be differente then other Scripts, because in this Script you can choose which Services you want to disable and Services you want to keep.
+OptiZ Script is made to disable unneeded Windows 10 services, the Script might be differente then other scripts, because in this Script you can choose which services you want to disable and services you want to keep.
 # Why it's a good thing to disable services?
 There is many services on Windows 10 today, some of them you really don't need, running a lot of services in the background may take a lot of resources, and disabling them should helps with performance and RAM etc.
 Our future plans is to make our scripts as stable as possible to make the user experience even better.
