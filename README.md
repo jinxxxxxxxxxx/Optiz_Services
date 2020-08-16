@@ -25,5 +25,3 @@ Be careful with what you selecting, do it step-by-step, sometimes you don't have
 # Credits
 * [n1kobg](https://n1kobg.blogspot.com/)
 * [equk](https://github.com/equk/windows/tree/master/windows_10)
-* [Revision](https://discord.gg/962y4pU)
-* [Evolve communitiy](https://discord.gg/N5awGsk)
