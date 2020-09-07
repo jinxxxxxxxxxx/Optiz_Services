@@ -450,7 +450,7 @@ Echo. [101;41mThe services has been disabled.[0m
 goto :next
 
 :next
-Echo. [101;41mWould you like to tweak unneeded services?:[0m
+Echo. [101;41mWould you like to disable unneeded services?:[0m
 Echo. Press "Y" to apply.
 Echo. Press "N" to skip.
 Echo.
@@ -529,10 +529,42 @@ sc config camsvc start= auto
 Echo.
 Echo. [101;41mThe services has been disabled.[0m
 
+goto :next
+
+:next
+Echo. [101;41mDisable Print?:[0m
+Echo. Press "Y" to apply.
+Echo. Press "N" to skip.
+Echo.
+SET /P choice=  [101;42mY / N:[0m  
+IF /I "%choice%"=="Y" goto apply
+IF /I "%choice%"=="N" goto next
+Echo.
+:apply
+taskkill /f /im OneDrive.exe > nul 2>&1
+if exist %SystemRoot%\System32\OneDriveSetup.exe (
+	start /wait %SystemRoot%\System32\OneDriveSetup.exe /uninstall
+) else (
+	start /wait %SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
+)
+rd "%UserProfile%\OneDrive" /q /s > nul 2>&1
+rd "%SystemDrive%\OneDriveTemp" /q /s > nul 2>&1
+rd "%LocalAppData%\Microsoft\OneDrive" /q /s > nul 2>&1
+rd "%ProgramData%\Microsoft OneDrive" /q /s > nul 2>&1
+reg delete "HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /f > nul 2>&1
+reg delete "HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}" /f > nul 2>&1
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableFileSyncNGSC" /t REG_DWORD /d 1 /f > nul
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableFileSync" /t REG_DWORD /d 1 /f > nul
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableMeteredNetworkFileSync" /t REG_DWORD /d 1 /f > nul
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableLibrariesDefaultSaveToOneDrive" /t REG_DWORD /d 1 /f > nul
+reg add "HKCU\SOFTWARE\Microsoft\OneDrive" /v "DisablePersonalSync" /t REG_DWORD /d 1 /f > nul
+Echo.
+Echo. [101;41mThe services has been disabled.[0m
+
 Echo.
 Echo.
 Echo.
-Echo. [101;43mPlease Restart Your Computer After The Script Done![0m
+Echo. [101;43mThank You For Using The Script, Please Exit The Script And Restart Your Computer.[0m
 Echo.
 Echo.
 Echo.
