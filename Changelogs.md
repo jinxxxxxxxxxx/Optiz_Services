@@ -6,7 +6,7 @@ March 17th 2020
 * Fix for Disk Management.
 
 
-**Optiz Services Script Version 0.1.0**
+**Optiz Services Script Version 0.2.0**
 March 12th 2020
 
 * Replaced all sc config XXXX commands with "Reg add" commands
@@ -14,6 +14,6 @@ March 12th 2020
 * Removed Disable Windows sign-in \ log-in feature
 
 
-**Optiz Services Script Version 0.1.1**
+**Optiz Services Script Version 0.2.1**
  Sepember 5th 2020
 * Added an option to disable and uninstall OneDrive
