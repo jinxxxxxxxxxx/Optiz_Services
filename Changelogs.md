@@ -20,5 +20,5 @@ March 12th 2020
 
 
 **Optiz Services Script Version 0.3.0**
- Sepember 11th 2020
+ Sepember 12th 2020
 * Fixed the "loop bug" thanks to Big Boy Fire for reporting the bug.
