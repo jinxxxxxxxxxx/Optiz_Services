@@ -532,7 +532,7 @@ Echo. [101;41mThe services has been disabled.[0m
 goto :next
 
 :next
-Echo. [101;Disable and uninstall OneDrive?:[0m
+Echo. [101;41mDisable and uninstall OneDrive?:[0m
 Echo. Press "Y" to apply.
 Echo. Press "N" to skip.
 Echo.
