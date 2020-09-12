@@ -560,12 +560,8 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableLibraries
 reg add "HKCU\SOFTWARE\Microsoft\OneDrive" /v "DisablePersonalSync" /t REG_DWORD /d 1 /f > nul
 Echo.
 Echo. [101;41mThe services has been disabled.[0m
-
+Pause.
 Echo.
 Echo.
 Echo.
 Echo. [101;43mThank You For Using The Script, Please Exit The Script And Restart Your Computer.[0m
-Echo.
-Echo.
-Echo.
-Pause.
