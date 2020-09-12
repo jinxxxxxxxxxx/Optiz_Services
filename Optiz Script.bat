@@ -538,7 +538,7 @@ Echo. Press "N" to skip.
 Echo.
 SET /P choice=  [101;42mY / N:[0m  
 IF /I "%choice%"=="Y" goto apply
-IF /I "%choice%"=="N" goto next
+IF /I "%choice%"=="N" goto finish
 Echo.
 :apply
 taskkill /f /im OneDrive.exe > nul 2>&1
@@ -558,10 +558,15 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableFileSync"
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableMeteredNetworkFileSync" /t REG_DWORD /d 1 /f > nul
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableLibrariesDefaultSaveToOneDrive" /t REG_DWORD /d 1 /f > nul
 reg add "HKCU\SOFTWARE\Microsoft\OneDrive" /v "DisablePersonalSync" /t REG_DWORD /d 1 /f > nul
+
+goto :finish
+
+:finish
 Echo.
 Echo. [101;41mThe services has been disabled.[0m
-Pause.
-Echo.
 Echo.
 Echo.
 Echo. [101;43mThank You For Using The Script, Please Exit The Script And Restart Your Computer.[0m
+Echo.
+Echo.
+pause
