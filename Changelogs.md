@@ -14,6 +14,11 @@ March 12th 2020
 * Removed Disable Windows sign-in \ log-in feature
 
 
-**Optiz Services Script Version 0.2.1**
+**Optiz Services Script Version 0.2.5**
  Sepember 5th 2020
 * Added an option to disable and uninstall OneDrive
+
+
+**Optiz Services Script Version 0.3.0**
+ Sepember 11th 2020
+* Fixed the "loop bug" thanks to Big Boy Fire for reporting the bug.
