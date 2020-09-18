@@ -18,3 +18,8 @@ Optiz Services Script Version 0.3.0 September 12th 2020
 
 Fixed the "loop bug" thanks to Big Boy Fire for reporting the bug
 Download Link: https://github.com/ItayHydro/Optiz_Services
+
+Optiz Services Script Version 0.3.5 September 19th 2020
+
+Fixed Windows search not working even if selected N to disable windows search huge thanks to Prince么 for reporting the bug
+Download Link: https://github.com/ItayHydro/Optiz_Services
