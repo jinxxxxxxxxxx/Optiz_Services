@@ -1,5 +1,5 @@
 @echo off
-title OptiZ_Script Version 0.1.5
+title OptiZ_Script Version 0.3.5 Beta
 Echo.
 Echo.
 Echo.
