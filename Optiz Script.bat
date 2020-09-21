@@ -364,7 +364,8 @@ Echo. [101;41mThe services has been disabled.[0m
 goto :next
 
 :next
-Echo. [101;41mDisable Print?:[0m
+Echo. [101;41mDisable 
+?:[0m
 Echo. Press "Y" to apply.
 Echo. Press "N" to skip.
 Echo.
@@ -373,7 +374,6 @@ IF /I "%choice%"=="Y" goto apply
 IF /I "%choice%"=="N" goto next
 Echo.
 :apply
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\LanmanServer" /v "Start" /t REG_DWORD /d "4" /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Fax" /v "Start" /t REG_DWORD /d "4" /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Spooler" /v "Start" /t REG_DWORD /d "4" /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\PrintNotify" /v "Start" /t REG_DWORD /d "4" /f
