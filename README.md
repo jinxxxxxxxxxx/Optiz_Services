@@ -15,7 +15,7 @@ Our future plans is to make our scripts as stable as possible to make the user e
 3. Run the Optiz batch file as an administrator
 4. Once you open the .bat file, you will see a black window with the features, if you want to apply the tweak, type the letter "Y" - Yes, by typeing the letter "N" - No, the tweak won't apply and the service will stay like it was before.
 Be careful with what you're selecting, do it step-by-step, you don't have to choose everything yes, only if you wish the get the best of the script :).
-5. Once the script finished, make a restart to your PC.
+5. Once the script finished, restart your PC, enjoy!
 
 # Credits
 * [n1kobg](https://n1kobg.blogspot.com/)
