@@ -24,12 +24,9 @@ Optiz Services Script Version 0.3.5 September 19th 2020
 Fixed Windows search not working even if selected N to disable windows search huge thanks to Prince么 for reporting the bug
 Download Link: https://github.com/ItayHydro/Optiz_Services
 
-Optiz Services Script Version 0.4.0 September xxth 2020
+Optiz Services Script Version 0.4.0 September 22th 2020
 
 Huge services update, added an option to disable SmartScreen, Windows Customer Experience Improvement Program, PlugPlay and Biometrics.
 Added more tweaks to Windows Search to disable almost 100% completely.
 Removed the option to disable telemetry and put it the disable useless services option.
 Download Link: https://github.com/ItayHydro/Optiz_Services
-**Estimated date for release: September  22th**
-
-!Credits are given in the GitHub of the script as usual!
